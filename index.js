@@ -5,7 +5,7 @@ app.use(express.json({ limit: '50mb' })); // Add this line to parse JSON request
 
 const Replicate = require("replicate");
 const replicate = new Replicate({
-    auth: process.env.REPLICATE_KEY,
+    auth: 'r8_9lVdjy8zKbsIpBtvhUzI7yU3rMZfB3E29bDy8',
 });
 let isWebhookReceived = false;
 

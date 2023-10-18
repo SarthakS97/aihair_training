@@ -156,7 +156,7 @@ async function main(outputVersion) {
                         prompt_strength: 0.65,
                         apply_watermark: false
                     },
-                    webhook: "https://naughty-deer-smock.cyclic.app/webhook_predictions",
+                    webhook: "https://aihair-prediction.onrender.com/webhook_predictions",
                     webhook_events_filter: ["completed"]
                 });
             // console.log("Prediction result:", prediction);

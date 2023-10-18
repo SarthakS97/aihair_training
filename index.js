@@ -156,7 +156,7 @@ async function main(outputVersion) {
                         prompt_strength: 0.65,
                         apply_watermark: false
                     },
-                    webhook: "http://2e5b-49-205-129-224.ngrok.io/webhook_predictions",
+                    webhook: "https://naughty-deer-smock.cyclic.app/webhook_predictions",
                     webhook_events_filter: ["completed"]
                 });
             // console.log("Prediction result:", prediction);
